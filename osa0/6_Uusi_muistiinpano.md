@@ -7,6 +7,6 @@
         activate server
         server-->>browser: {message: "note created"}
         deactivate server
-		
-		Note to the right of browser: POST-method activates the JavaScript code loaded earlier to add the new note on the page without loading the whole page again.
+
+	Note right of browser: POST-method activates the JavaScript code loaded earlier to add the new note on the page without rloading the whole page.
 ```
